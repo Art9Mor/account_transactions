@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "course-work-3"
+version = "0.1.0"
+description = ""
+authors = ["Artem Moroz <deusestmaleficus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+datetime = "^5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
