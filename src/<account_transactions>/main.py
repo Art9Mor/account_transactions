@@ -3,6 +3,8 @@ from utils.list_from_json import from_json
 from utils.cleaned_data import cleaned_data
 from utils.last_values import last_values
 from utils.formated_data import formated_data
+
+
 def main():
     data = from_json(JSON_DATA)
 
