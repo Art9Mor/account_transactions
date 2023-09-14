@@ -1,5 +1,4 @@
 def about_from(data):
-    info = []
     for element in data:
         source = element.get('from', 'Investor')
         if source != 'Investor':
