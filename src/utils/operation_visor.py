@@ -3,7 +3,7 @@ from src.utils.encoding_in import encoding_in
 from src.utils.encoding_out import encoding_out
 
 
-def print_operation(data: dict) -> str:
+def operation_visor(data: dict) -> str:
     """
     Returns operation information according to output required format
     """
