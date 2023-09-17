@@ -1,4 +1,4 @@
-from config import JSON_DATA, OPERATIONS_COUNT
+from config import OPERATIONS_COUNT
 from src.utils.about_from import about_from
 from src.utils.cleaned_data import cleaned_data
 from src.utils.formated_data import formated_data
@@ -8,7 +8,7 @@ from src.utils.last_values import last_values
 
 def main():
 
-    data = from_json(JSON_DATA)
+    data = from_json()
 
     data = cleaned_data(data)
     data = last_values(data, OPERATIONS_COUNT)
