@@ -8,7 +8,7 @@ def from_json() -> list:
     :return: list of operations
     """
     current_dir = os.path.dirname(os.path.realpath(__file__))
-    operations_file_path = os.path.join(current_dir, 'src/<account_transactions>/operations.json')
+    operations_file_path = os.path.join(current_dir, 'operations.json')
 
     with open(operations_file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
